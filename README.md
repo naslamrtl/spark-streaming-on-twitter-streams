@@ -1,3 +1,4 @@
+#Spark Streaming on twitter streams
 The goal of this programe is to write a standalone Spark streaming application with the following
 characteristics. Spark Streaming 
 
