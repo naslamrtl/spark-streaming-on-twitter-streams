@@ -18,9 +18,10 @@ appeared last in the window (lets call that count value Y). Then, using Y – X 
 get the retweet count for the retweeted tweet.
 
 That data that needs to be logged each 5 seconds has to be of the following format
+```
 <Secs>,<Lang>,<Langcode>,<TotalRetweetsInThatLang>,<IDOfTweet>,<MaxRetweetCount>,<MinRetweetCount>
 ,<RetweetCount>,<Text>
-
+```
 - I get the language used in the retweet by using the Apache Tika library (included
 with the template code). It uses text analytics to figure out the language used. Since, tweets
 contain short texts and informal language, many times Apache Tika will figure out wrong
